@@ -5,5 +5,5 @@ jwt:
 spring:
   data:
     redis:
-      host: couponmoa-dev-redis-service
+      host: 10.0.11.28
       port: 6379
