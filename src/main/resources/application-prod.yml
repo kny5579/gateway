@@ -1,3 +1,9 @@
 jwt:
   secret:
     key: ${JWT_SECRET_KEY}
+
+spring:
+  data:
+    redis:
+      host: couponmoa-dev-redis-service
+      port: 6379
