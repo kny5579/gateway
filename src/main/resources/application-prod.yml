@@ -5,5 +5,5 @@ jwt:
 spring:
   data:
     redis:
-      host: 10.0.11.28
+      host: ${REDIS_HOST}
       port: 6379
